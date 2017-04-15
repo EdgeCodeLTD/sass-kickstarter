@@ -1,3 +1,16 @@
+@import "../1-base/mixins";
+
+.navbar-brand {
+  height: 0px !important;
+  padding: 0px !important;
+  @include transition(all, 0.2s, ease);
+
+  &:hover {
+    opacity: 0.85;
+    @include transition(all, 0.2s, ease);
+  }
+}
+
 .navbar ul li {
   a {
     color: #fff;
