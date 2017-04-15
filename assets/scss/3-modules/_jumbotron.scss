@@ -1,5 +1,19 @@
-@import "../1-base/variables";
-
 .jumbotron {
   background: none;
+  padding: 250px 0;
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+.btn-white {
+  background: #fff;
+  padding: 8px 30px;
+  font-size: 1.65rem;
 }

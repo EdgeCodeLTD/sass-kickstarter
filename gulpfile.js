@@ -36,4 +36,4 @@ gulp.task('watch', () => {                      // Create a task to watch for ch
 });                                             // and then run 'scss' task
 
 // Default statement to execute on gulp command
-gulp.task('default', ['scss', 'compress', 'watch']);
+gulp.task('default', ['scss', 'scss-b', 'compress', 'watch']);

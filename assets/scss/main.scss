@@ -1,4 +1,6 @@
 // IMPORT/PULL ALL NECESSARY DIRECTORIES FOR FINAL EXPORT //
+@import "variables";                // IMPORT 'variables'
+@import "mixins";                   // IMPORT 'mixins'
 @import "0-plugins/plugins-dir";    // IMPORT 'plugins-dir'
 @import "1-base/base-dir";          // IMPORT 'base-dir'
 @import "2-layouts/layouts-dir";    // IMPORT 'layouts-dir'

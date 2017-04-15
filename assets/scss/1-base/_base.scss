@@ -1,4 +1,7 @@
-@import "variables";
 body {
   font-family: $font-family;
+}
+
+hr {
+  max-width: 300px;
 }
