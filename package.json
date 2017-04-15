@@ -1,0 +1,22 @@
+{
+  "name": "sass-kickstarter",
+  "version": "1.0.0",
+  "description": "Simple Sass/Scss Starter Kit following Smacss style guide that kickstarts your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgeCodeLTD/sass-kickstarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgeCodeLTD/sass-kickstarter/issues"
+  },
+  "homepage": "https://github.com/EdgeCodeLTD/sass-kickstarter#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
