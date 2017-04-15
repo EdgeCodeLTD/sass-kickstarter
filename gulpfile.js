@@ -5,7 +5,7 @@ const rename = require('gulp-rename');
 const pump = require('pump');                   // Include pump to throw useful errors
 
 gulp.task('scss', () => {                       // Create a task for gulp-sass plugin
-    gulp.src('assets/scss/*.scss')       // Select the source to work with
+    gulp.src('assets/scss/*.scss')              // Select the source to work with
         .pipe(sass())                           // Run 'sass()' function to compile Sass code
         .pipe(gulp.dest('assets/dist/css'))     // Export to 'dist/css' folder
 });
