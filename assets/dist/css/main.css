@@ -245,6 +245,15 @@ header {
   background: #3498db;
   color: #fff; }
 
+.navbar ul li a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300; }
+
+.navbar ul li a:hover {
+  background: none;
+  font-weight: 400; }
+
 /*----------------------------*/
 /*      COLOUR PALETTE        */
 /*----------------------------*/
