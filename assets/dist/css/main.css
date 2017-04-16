@@ -153,13 +153,13 @@ header {
   background: none;
   font-weight: 400; }
 
-.jumbotron {
+.intro {
   background: none;
-  padding: 250px 0; }
-  .jumbotron h1 {
+  padding: 100px 0; }
+  .intro h1 {
     font-size: 5rem;
     font-weight: 300; }
-  .jumbotron p {
+  .intro p {
     font-size: 2rem; }
 
 .btn-white {
@@ -167,6 +167,70 @@ header {
   padding: 8px 30px;
   font-size: 1.65rem; }
 
+.mac-wrapper {
+  height: 500px;
+  width: 100%;
+  background: url("../../dist/img/mac.png") no-repeat center; }
+  .mac-wrapper span {
+    font-size: 2.25rem;
+    font-weight: 300;
+    display: block; }
+    .mac-wrapper span:before {
+      content: "$ ";
+      color: #3498db; }
+
 .affix {
   background: #2c3e50;
   padding: 1rem !important; }
+
+.navbar-toggle .icon-bar {
+  border: 1px solid #fff !important; }
+
+.navbar-collapse {
+  text-align: center !important; }
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    height: 40px !important;
+    margin-top: 3px; }
+  .collapsing {
+    background: #2c3e50 !important; }
+  .navbar-collapse.in {
+    background: #2c3e50 !important; }
+  .navbar-toggle {
+    padding: 9px 0 !important; } }
+
+@media only screen and (min-width: 993px) {
+  .mac-wrapper {
+    padding-left: 70px !important; } }
+
+@media only screen and (max-width: 992px) {
+  .intro {
+    padding: 80px 0 !important; }
+  .mac-wrapper {
+    height: 400px !important;
+    background-size: 100% auto !important; } }
+
+@media only screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 3rem; }
+  .mac-wrapper {
+    padding: 70px; }
+    .mac-wrapper h3 {
+      font-size: 1.8rem; }
+    .mac-wrapper span {
+      font-size: 1.6rem; } }
+
+@media only screen and (max-width: 480px) {
+  .intro h1 {
+    font-size: 2.5rem; }
+  .intro p {
+    font-size: 1.50rem; }
+  .mac-wrapper {
+    height: 220px !important;
+    background-size: 100% auto !important;
+    padding: 0px; }
+    .mac-wrapper h3 {
+      font-size: 1.5rem; }
+    .mac-wrapper span {
+      font-size: 1.2rem; } }

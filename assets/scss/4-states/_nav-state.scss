@@ -2,3 +2,29 @@
   background: #2c3e50;
   padding: 1rem !important;
 }
+
+.navbar-toggle {
+  .icon-bar {
+    border: 1px solid #fff !important;
+  }
+}
+
+.navbar-collapse {
+  text-align: center !important;
+}
+
+@media only screen and (max-width : 768px) {
+  .navbar-brand img {
+    height: 40px !important;
+    margin-top: 3px;
+  }
+  .collapsing {
+    background: $dark !important;
+  }
+  .navbar-collapse.in {
+    background: $dark !important;
+  }
+  .navbar-toggle {
+    padding: 9px 0 !important;
+  }
+}
