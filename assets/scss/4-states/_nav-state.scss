@@ -28,3 +28,7 @@
     padding: 9px 0 !important;
   }
 }
+
+.nav > li > a:focus {
+  background: none !important;
+}

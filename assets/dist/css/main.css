@@ -121,6 +121,9 @@
 body {
   font-family: "Roboto", sans-serif; }
 
+section {
+  padding: 60px 0; }
+
 hr {
   max-width: 300px; }
 
@@ -158,7 +161,8 @@ header {
 
 .intro {
   background: none;
-  padding: 100px 0; }
+  padding: 100px 0;
+  margin-bottom: 0; }
   .intro h1 {
     font-size: 5rem;
     font-weight: 300; }
@@ -182,6 +186,35 @@ header {
       content: "$ ";
       color: #3498db; }
 
+.features h2 {
+  font-weight: 300; }
+
+.features p {
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: #7f8c8d;
+  word-spacing: 0.15rem; }
+  .features p a {
+    font-weight: 400; }
+    .features p a:hover {
+      text-decoration: none; }
+
+.features img {
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease; }
+  .features img:hover {
+    background: #2c3e50;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    transition: all 0.1s ease; }
+
 .affix {
   background: #2c3e50;
   padding: 1rem !important; }
@@ -202,6 +235,9 @@ header {
     background: #2c3e50 !important; }
   .navbar-toggle {
     padding: 9px 0 !important; } }
+
+.nav > li > a:focus {
+  background: none !important; }
 
 @media only screen and (min-width: 993px) {
   .mac-wrapper {
@@ -232,7 +268,9 @@ header {
   .mac-wrapper {
     height: 220px !important;
     background-size: 100% auto !important;
-    padding: 0px; }
+    padding: 10px; }
+    .mac-wrapper br {
+      display: none; }
     .mac-wrapper h3 {
       font-size: 1.5rem; }
     .mac-wrapper span {
