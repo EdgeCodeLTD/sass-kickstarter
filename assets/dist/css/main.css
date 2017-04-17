@@ -127,6 +127,13 @@ section {
 hr {
   max-width: 300px; }
 
+footer {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 300;
+  background: #2c3e50;
+  color: #fff; }
+
 header {
   background: #3498db;
   color: #fff; }
@@ -135,8 +142,14 @@ header {
   text-align: center;
   background: #f9f9f9; }
 
-#about {
-  text-align: center; }
+#docs {
+  text-align: center;
+  background: #EB4A4F;
+  color: #fff; }
+
+#contribute {
+  text-align: center;
+  background: #f9f9f9; }
 
 .navbar-brand {
   height: 0px !important;
@@ -182,12 +195,14 @@ header {
   height: 500px;
   width: 100%;
   background: url("../../dist/img/mac.png") no-repeat center; }
+  .mac-wrapper a {
+    color: #2ecc71; }
   .mac-wrapper span {
     font-size: 2.25rem;
     font-weight: 300;
     display: block; }
     .mac-wrapper span:before {
-      content: "$ ";
+      content: "> ";
       color: #3498db; }
 
 .features h2 {
@@ -218,6 +233,42 @@ header {
     -o-transition: all 0.1s ease-in-out;
     -ms-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out; }
+
+.docs-info strong {
+  font-weight: 400; }
+
+.docs-info h1 {
+  margin-bottom: 20px; }
+
+.docs-info h4 {
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin: 25px 0; }
+
+.btn-white-o {
+  background: #fff;
+  padding: 8px 30px;
+  font-size: 1.65rem;
+  color: #EB4A4F; }
+
+.contribute-info strong {
+  font-weight: 400; }
+
+.contribute-info h1 {
+  margin-bottom: 20px; }
+
+.contribute-info h4 {
+  font-weight: 300;
+  line-height: 2.5rem;
+  margin: 25px 0; }
+
+.btn-dark {
+  background: #2c3e50;
+  padding: 8px 30px;
+  font-size: 1.65rem;
+  color: #f9f9f9; }
+  .btn-dark:hover {
+    color: #fff; }
 
 .affix {
   background: #2c3e50;

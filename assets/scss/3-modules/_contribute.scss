@@ -1,0 +1,26 @@
+.contribute-info {
+  strong {
+    font-weight: 400;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin: 25px 0;
+  }
+}
+
+.btn-dark {
+  background: $dark;
+  padding: 8px 30px;
+  font-size: 1.65rem;
+  color: $gray-light;
+
+  &:hover {
+    color: #fff;
+  }
+}
