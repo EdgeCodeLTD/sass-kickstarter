@@ -10,12 +10,12 @@ gulp.task('scss', () => {                       // Create a task for gulp-sass p
         .pipe(gulp.dest('assets/dist/css'))     // Export to 'dist/css' folder
 });
 
-gulp.task('scss-b', () => {
-    gulp.src('assets/scss/**/*.scss')
-        .pipe(sass());
-    gulp.src('assets/scss/*.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('assets/dist/css'))
+gulp.task('scss-b', () => {                     // Create a task for gulp-sass plugin
+    gulp.src('assets/scss/**/*.scss')           // Directories towards every sass file
+        .pipe(sass());                          // Run 'sass()' function to compile Sass code
+    gulp.src('assets/scss/*.scss')              // Select all Sass files (except for partials)
+        .pipe(sass())                           // Run 'sass()' function to compile Sass code
+        .pipe(gulp.dest('assets/dist/css'))     // Export non-partials files (main.scss in this case)
 });
 
 gulp.task('compress', function (cb) {           // Create a task for gulp-uglify plugin
