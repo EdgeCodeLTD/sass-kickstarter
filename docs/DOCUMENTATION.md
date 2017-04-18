@@ -43,6 +43,13 @@ In **`assets/scss`** folder you can find a few files and folders. Here's how it 
 <br>
 **`main.scss`** imports **`_name-dir.scss`** file from every **`X-name`** folder inside **`scss`** folder.<br> Every **`_name-dir.scss`** file imports the partials that belong to **`X-name`** folder.
 
+### JavaScript Files
+All you have to do is simply edit the **`custom.js`** file inside **`assets/js`** folder.
+<br><br>
+The build system will take care of minifying it and exporting it to the **`dist/js`** folder.
+<br>
+Keep in mind that it prepends **.min** suffix to **.js.**
+
 ### Gulp
 I am using Gulp for the build system. Inside **`gulpfile.js`** you can find all the base code for it.
 <br>
