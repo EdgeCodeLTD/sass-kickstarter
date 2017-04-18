@@ -1,4 +1,4 @@
-# sass-starter-kit
+# Sass Kickstarter | A starter-kit for Sass
 Simple Sass/Scss Starter Kit following Smacss style guide that kickstarts your project
 
 ### Current Version
