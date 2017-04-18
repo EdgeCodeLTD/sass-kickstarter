@@ -25,5 +25,15 @@ The **package.json** file includes all the development dependencies that are use
 After unziping the project, use `npm install` command to install all the dependencies for Gulp to work.
 
 
+### Sass
+This project is built around making **[Sass](http://sass-lang.com/)** adhere the **[Smacss](https://smacss.com/book/)** styling guidelines.
+<br><br>
+In this section you can find a quick start guide on how to work with the project.
+<br>However, I still recommend you to read **[Smacss](https://smacss.com/book/)** book in order to fully understand how it works.
+
+##### Folder and File Structure Overview
+
 ### Gulp
-I am using Gulp for the build system. Inside gulpfile.js you
+I am using Gulp for the build system. Inside gulpfile.js you can find all the base code for it.
+<br><br>
+The code is commented and it's pretty straightforward on how to use it. Feel free to add your own tweaks.
