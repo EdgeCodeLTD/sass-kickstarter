@@ -1,10 +1,13 @@
 # Sass Kickstarter | A starter-kit for Sass
 Simple Sass/Scss Starter Kit following Smacss style guide that kickstarts your project
 
-### Current Version
-* Version 1.0.0.
-<br><br>
-View changelog **[here](https://github.com/EdgeCodeLTD/sass-kickstarter/blob/master/CHANGELOG.md)**.
+### Install
+##### Current Version - v1.0.0 (**[view changelog](https://github.com/EdgeCodeLTD/sass-kickstarter/blob/master/CHANGELOG.md)**)
+
+1. Download the **[clean](http://edgecode.gr/sass-kickstarter/sass-kickstarter-clean.zip)** or the **[example](http://edgecode.gr/sass-kickstarter/sass-kickstarter-example.zip)** version.
+2. **Unpack** the zip file and extract the contents.
+3. Follow the **Get Started** guide in **[Documentation](https://github.com/EdgeCodeLTD/sass-kickstarter/blob/master/docs/DOCUMENTATION.md)**.
+
 
 ### Documentation
 You can find all information about how to get started **[here](https://github.com/EdgeCodeLTD/sass-kickstarter/blob/master/docs/DOCUMENTATION.md)**.
