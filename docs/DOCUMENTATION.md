@@ -1,10 +1,10 @@
 # Documentation
-### How To Install
+## How To Install
 1. Download the **[clean](http://edgecode.gr/sass-kickstarter/clean.zip)** or **[example](http://edgecode.gr/sass-kickstarter/example.zip)** version
 2. Unpack the zip file and extract the contents
 3. Follow the guidelines below to get started
 
-### Project Overview
+## Project Overview
 Both the clean and example version contain the following:
 * **index.html**
 * **gulpfile.js**
