@@ -1,6 +1,6 @@
 # Documentation
 ## How To Install
-1. **[Download](http://edgecode.gr/sass-kickstarter-clean.zip)** the **clean** version or **[clone](https://github.com/EdgeCodeLTD/sass-kickstarter.git)** the **example** version.
+1. **[Download](http://nickgatzos.com/sass-kickstarter-clean.zip)** the **clean** version or **[clone](https://github.com/nickgatzoulis/sass-kickstarter.git)** the **example** version.
 2. Unpack the zip file and extract the contents
 3. Follow the guidelines below to get started
 
